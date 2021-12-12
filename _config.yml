@@ -9,7 +9,7 @@ googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Europe/Moscow
 repo: https://github.com/Ilsolang/Ilsolang.github.io # site repo [optional]
-data-theme: dark # default theme "dark" | "light"
+data-theme: light # default theme "dark" | "light"
 
 author:
   name: Ilya Semenov
@@ -20,7 +20,7 @@ author:
   email: essilyasemenov@gmail.com # email adress
 
 # URL settings
-url: "https://Ilsolang.github.io" # Domain Name of host. [username].github.io for github pages
+url: "https://ilsolang.github.io/" # Domain Name of host. [username].github.io for github pages
 baseurl: # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
 permalink: pretty
 
