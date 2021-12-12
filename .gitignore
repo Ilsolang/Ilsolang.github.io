@@ -1,5 +1,5 @@
-.vscode/*
-.DS_Store
-.jekyll-cache/*
+/.vscode/
+/.DS_Store
+/.jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
