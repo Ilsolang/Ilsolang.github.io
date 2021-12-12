@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Francesco Di Salvo</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2021-12-12T07:09:30+00:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Ilya Semenov</name>
+   <email>essilyasemenov@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Activity</title>
+   <link href="http://localhost:4000/2021/12/06/activity"/>
+   <updated>2021-12-06T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2021/12/06/activity</id>
+   <content type="html">&lt;h1 id=&quot;2021&quot;&gt;2021&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;(December) : Started contributing to  &lt;a href=&quot;https://github.com/leadthefuture/ML-and-DataScience-preparation&quot;&gt;ML-and-DataScience-preparation&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(October) : Started an internship @ &lt;a href=&quot;https://www.aikospace.com&quot;&gt;AIKO - Autonomous Space Missions&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(September) : Incremental Learning for Semantic Segmentation | &lt;a href=&quot;https://github.com/francescodisalvo05/incremental-learning-semantic-segmentation&quot;&gt;(repository) &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(September) : Learned the basics of Fast API + tutorial | &lt;a href=&quot;https://github.com/francescodisalvo05/fastapi-grocery-list&quot;&gt;(repository) &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(September) : Wrote my first article on medium! | &lt;a href=&quot;https://medium.com/geekculture/curse-of-dimensionality-e97ba916cb8f&quot;&gt;(link) &lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(September) : Credit card default project | &lt;a href=&quot;https://github.com/francescodisalvo05/credit-card-default&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(May - September) : Joined Tech Talents&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(May - August) : Collaborated to the “ART-ificial intelligence” research project&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(May - August) : Live Financial Sentiment Analysis | &lt;a href=&quot;https://github.com/daniele21/Financial_Sentiment_Analysis&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(June) : Bias and Fairness detector | &lt;a href=&quot;https://github.com/francescodisalvo05/bias-fairness-detector&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(April - June) : Machine Learning Engineer @ Omdena | &lt;a href=&quot;https://drive.google.com/file/d/10fQBl_Ka_vNTnCvq0duJIKSCbSVFWkou/view&quot;&gt;(certificate)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(February - May) : #66DaysOfData | &lt;a href=&quot;https://github.com/francescodisalvo05/66DaysOfData&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(January) : Wine Quality Prediction | &lt;a href=&quot;https://github.com/francescodisalvo05/wine-quality-prediction&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;2020&quot;&gt;2020&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;(December) : Black Lives Matter Sentiment Analysis | &lt;a href=&quot;https://github.com/francescodisalvo05/Twitter-Black-Lives-Matter-SA&quot;&gt;(repository)&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(September) : Started a MSc in Data Science and Engineering @ PoliTo&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(July) : Graduated in Computer Engineering cum Laude @ UniPa&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Decision Tree and Random Forest — PT 1</title>
+   <link href="http://localhost:4000/2021/10/03/decision-tree-random-forest-1"/>
+   <updated>2021-10-03T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2021/10/03/decision-tree-random-forest-1</id>
+   <content type="html">&lt;h1 id=&quot;decision-tree-and-random-forest--pt-1&quot;&gt;Decision Tree and Random Forest — PT 1&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/decision-tree-random-forest/wallpaper.jpg&quot; alt=&quot;Wallpaper&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is also available on &lt;a href=&quot;https://medium.com/@francesco.disalvo/decision-tree-and-random-forest-pt-1-729b74db1756&quot;&gt;medium&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tree based algorithms are probably the most used algorithms in both classification and regression problems. In fact, if you see a couple of Kaggle notebooks, it is quite easy to understand that most of the people blindly try &lt;strong&gt;Random Forest&lt;/strong&gt; as a first trial.&lt;/p&gt;
+
+&lt;p&gt;Today I would like to go deeper in this topic and try to explain what are their main advantages and disadvantages.&lt;/p&gt;
+
+&lt;p&gt;Even though there are several tree based algorithms, most of the times we refer to &lt;strong&gt;Decision Tree&lt;/strong&gt; and &lt;strong&gt;Random Forest&lt;/strong&gt;.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;decision-tree&quot;&gt;Decision Tree&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Decision tree&lt;/strong&gt; is a &lt;strong&gt;supervised learning&lt;/strong&gt; algorithm that predicts the new labels by &lt;strong&gt;recursively splitting&lt;/strong&gt; the predictor space into &lt;strong&gt;non overlapping&lt;/strong&gt; distinct regions. For every observation that falls into any region we make the same prediction, which is the &lt;strong&gt;majority class&lt;/strong&gt; in that region (for classification) or the &lt;strong&gt;mean&lt;/strong&gt; of the response value (for regression).&lt;/p&gt;
+
+&lt;p&gt;Since considering every possible partition is computationally infeasible (&lt;strong&gt;NP- hard problem&lt;/strong&gt;), the tree is constructed with a &lt;strong&gt;greedy top down approach&lt;/strong&gt;, known as recursive binary splitting.&lt;/p&gt;
+
+&lt;p&gt;It is top-down because it begins at the top of the tree and then it successively splits the predictor space; each split is indicated via two new branches further down on the tree. Then, it is greedy because at each step of the tree-building process, the best split is made at that particular step, rather than looking ahead and picking a split that will lead to a better tree in some future step.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/decision-tree-random-forest/splitting.jpeg&quot; alt=&quot;BinarySplitting&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Source : (&lt;a href=&quot;https://tex.stackexchange.com/questions/526560/plotting-regression-tree-and-partitions&quot;&gt;link&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In order to select the best split to make for classification problems, we consider the split that minimize something. Here we have two main alternatives, the &lt;strong&gt;Gini Index&lt;/strong&gt; and the &lt;strong&gt;Entropy&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Gini Index is a measure of impurity and in particular it measures the variances across the classes. It is defined as:&lt;/p&gt;
+
+\[\mbox {Gini} = 1 - \sum_j p_j^2\]
+
+&lt;p&gt;where j is the current class evaluated and p_j is the probability (percentage) of class j. If we have one single class in the current partition its value will be 0 (the minimum) but if we have an equally distributed number of samples, we will have a Gini index equal to 
+1-(1/#classes).&lt;/p&gt;
+
+&lt;p&gt;On the other hand, the Entropy measures the so called “information gain”, defined as the disorder of the features with the current target. It is defined as:&lt;/p&gt;
+
+\[\mbox{Entropy} = \sum_j p_j \log_2 p_j\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;In regression problems, we aim to minimize the RSS (Residual Sum of Squares)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The main &lt;strong&gt;advantage&lt;/strong&gt; of a decision tree is that it is fairly &lt;strong&gt;interpretable&lt;/strong&gt;. The expanded decision tree can be easily explained if it is not too big. The problem is not only the interpretability, but huge trees could also have some redundant sub trees. Therefore, there are some techniques that allow to compress the dimensions, obtaining a less complex and less redundant tree. It can be pruned after the whole generation of the tree (&lt;strong&gt;post-pruning&lt;/strong&gt;), replacing the less informative subtrees with leaves. However, the most efficient way to do that is to prune it before it grows on its entirety (&lt;strong&gt;pre-pruning&lt;/strong&gt;) because it simplifies it step by step, and not in the end. The pruning can be performed for different reasons, for example we may decide to prune it if it overcomes a given threshold for the depth or for the Gini/Entropy.&lt;/p&gt;
+
+&lt;p&gt;If we come up with a non-enormous tree, it may be also understood by non-experts. However, the &lt;strong&gt;disadvantages&lt;/strong&gt; overcome the benefits and this is the reason why decision trees are barely used. In particular, the performances are not always optimal but most importantly, they are strongly affected by &lt;strong&gt;noise&lt;/strong&gt; and &lt;strong&gt;outliers&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;These limitations have brought to light a more advanced tree-based algorithm, that is &lt;strong&gt;Random Forest&lt;/strong&gt;, an ensemble method that combines multiple decision trees (that is why it is called “forest”) with the &lt;strong&gt;bagging&lt;/strong&gt; technique, obtaining a more accurate and robust model.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;random-forest&quot;&gt;Random Forest&lt;/h2&gt;
+&lt;p&gt;The idea of &lt;strong&gt;bagging&lt;/strong&gt; is to make prediction on &lt;strong&gt;N bootstrapped&lt;/strong&gt; copies of the training set (i.e. sampled with replacement). In order to decorellate the trees, &lt;strong&gt;feature bagging&lt;/strong&gt; is the best option. In particular, each time a split in a tree is considered, a fixed number of features (typically √p) is randomly chosen.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;p is the number of features of the given dataset&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The final prediction will be given by a &lt;strong&gt;majority voting scheme&lt;/strong&gt; of all the estimators (or the &lt;strong&gt;average&lt;/strong&gt;, in regression tasks).&lt;/p&gt;
+
+&lt;p&gt;This is why this algorithm is fairly &lt;strong&gt;robust&lt;/strong&gt; to &lt;strong&gt;noise&lt;/strong&gt; and &lt;strong&gt;outliers&lt;/strong&gt; and will have much &lt;strong&gt;less variance&lt;/strong&gt; rather than a single decision tree. It is robust to noise and outliers because the “impact” of these data points will be spread over all estimators and therefore their impact will decrease as the number of estimators increases. Then, it has a less variance because if we consider n observations with variance σ^2, the variance of the sample mean (over all estimators) will be exactly σ^2/n.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/decision-tree-random-forest/random_forest.jpg&quot; alt=&quot;RandomForest&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Random Forest (&lt;a href=&quot;https://www.tibco.com/reference-center/what-is-a-random-forest&quot;&gt;source&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On average, each bagged tree uses two third of the observation, therefore the remaining one third can be used to fit the given tree in order to evaluate its performances. This error is called &lt;strong&gt;out of bag error&lt;/strong&gt; and sometimes it can be used for “stopping” the training procedure.&lt;/p&gt;
+
+&lt;p&gt;The million-dollar question is: &lt;strong&gt;how many trees do I need?&lt;/strong&gt; I faced the same problem during my first trials. Intuitively, the higher is the number of estimators, the better will be the results BUT the improvements is not linear, therefore up to a certain point the computational complexity introduced will not be justified by its benefits.&lt;/p&gt;
+
+&lt;p&gt;When I was looking for the same answer I have found &lt;a href=&quot;https://www.researchgate.net/publication/230766603_How_Many_Trees_in_a_Random_Forest&quot;&gt;this&lt;/a&gt; paper that conducted an analysis on 29 different datasets and showed that “from 128 trees there is no more significant difference between the forests using 256, 512, 1024, 2048 and 4096 trees”.&lt;/p&gt;
+
+&lt;p&gt;Since we talked about the advantages we have to mention probably the main drawback : the &lt;strong&gt;computational cost&lt;/strong&gt;. If we have limited resources, this algorithm may not be the perfect choice, especially if we have a large number of features and chosen estimators.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Today we went a bit deeper on the theory behind Decision Tree and Random Forest. Assuming that we have to select one of these two algorithms, we could say in a couple of lines that Decision Tree could be a valid option if we need to explain our model to non-experts or if we want to understand a bit what is going on inside our model. But, if we care only about the overall performances and we do not have any particular computational limitations, Random Forest should be preferred.&lt;/p&gt;
+
+&lt;p&gt;This was just the first part and soon or later I will post the second one, from which we will go through the implementation of both algorithms!&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading the whole post and I hope it is all clear. If you still have some doubts or if you wanna just drop me a message, I would be more than happy to read it! Feel free to contact me on &lt;a href=&quot;https://www.linkedin.com/in/francescodisalvo-pa/&quot;&gt;LinkedIn&lt;/a&gt; :)
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wallpaper : https://unsplash.com/photos/7EqQ1s3wIAI&lt;/li&gt;
+  &lt;li&gt;Gini vs Entropy : https://en.wikipedia.org/wiki/Recursive_partitioning&lt;/li&gt;
+  &lt;li&gt;Bagging vs Boosting : https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/&lt;/li&gt;
+  &lt;li&gt;Number of trees in RF : https://www.researchgate.net/publication/230766603_How_Many_Trees_in_a_Random_Forest&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fast API — How to build a grocery list</title>
+   <link href="http://localhost:4000/2021/09/14/fastapi-grocery-list"/>
+   <updated>2021-09-14T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2021/09/14/fastapi-grocery-list</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/fastapi-grocery-list/wallpaper.jpeg&quot; alt=&quot;Wallpaper&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is also available on &lt;a href=&quot;https://medium.com/artificialis/fast-api-how-to-build-a-grocery-list-ee51d65f5bf2&quot;&gt;medium&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I recently approached Fast API and I realized that is an extremely useful, powerful, and easy-to-use web framework. Compared to Flask, it is much faster because it is built over Asynchronous Server Gateway Interface (ASGI) instead of Web Server Gateway Interface (WSGI). You can read something more about it in the following medium article: “&lt;a href=&quot;https://medium.com/analytics-vidhya/difference-between-wsgi-and-asgi-807158ed1d4c&quot;&gt;Difference between WSGI and ASGI?&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;Today I explain a simple way for implementing a grocery list with FastAPI. Obviously, once you understand the basics of this framework, “the sky’s the limit!”&lt;/p&gt;
+
+&lt;p&gt;First, we should start mentioning the CRUD operations, that are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CREATE: create a new item&lt;/li&gt;
+  &lt;li&gt;READ: retrieve all our items&lt;/li&gt;
+  &lt;li&gt;UPDATE: update the quantity of a given item that we need to buy&lt;/li&gt;
+  &lt;li&gt;DELETE: delete a given item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;The code of this tutorial can be found in &lt;a href=&quot;https://github.com/francescodisalvo05/fastapi-grocery-list&quot;&gt;this&lt;/a&gt; repository.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+&lt;p&gt;This is the structure that I have used in my repository:
+↳ app : &lt;strong&gt;init&lt;/strong&gt;.py | app.py
+↳ test.py : &lt;strong&gt;init&lt;/strong&gt;.py | test_main.py
+main.py&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;get-post-put-delete&quot;&gt;GET, POST, PUT, DELETE&lt;/h2&gt;
+&lt;p&gt;The foundations of the requests that took place on the web lie in Hypertext Transfer Protocol (HTTP). It manages all the communications between &lt;strong&gt;clients&lt;/strong&gt; (the ones that request a resource) and &lt;strong&gt;servers&lt;/strong&gt; (the ones that own the resources).&lt;/p&gt;
+
+&lt;p&gt;Two of the most common &lt;strong&gt;HTTP&lt;/strong&gt; methods are &lt;strong&gt;GET&lt;/strong&gt; and &lt;strong&gt;POST&lt;/strong&gt;. The major difference among them is that &lt;strong&gt;GET&lt;/strong&gt; is used for requesting data to the server whereas POST is used for sending data to the server.&lt;/p&gt;
+
+&lt;p&gt;If you want to know something more, I suggest you have a look at &lt;a href=&quot;https://www.w3schools.com/tags/ref_httpmethods.asp&quot;&gt;W3Schools&lt;/a&gt;. This website has been a bible for me while I was in high school and I was learning the Web Development stack.&lt;/p&gt;
+
+&lt;p&gt;Moreover, we also have &lt;strong&gt;PUT&lt;/strong&gt; and &lt;strong&gt;DELETE&lt;/strong&gt;. PUT is used for updating an instance on the server whereas DELETE is used, as you may imagine, for deleting an existing item.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;api-and-json&quot;&gt;API and JSON&lt;/h2&gt;
+&lt;p&gt;An Application Programming Interface (API) is a software that allows the communication between two applications. JavaScript Object Notation (JSON), on the other hand, is a text format based on “key-value” pairs separated by commas. Here’s an example:&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Francesco&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;surname&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Di Salvo&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;interests&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;AI&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Data Science&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Finance&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The reason why I am mentioning them both together is that JSON is commonly used for communication among applications through APIs. The main advantage of using JSON is that it is easily parsed by the machines and interpreted by us!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+&lt;p&gt;To facilitate you, I uploaded the requirements &lt;a href=&quot;https://github.com/francescodisalvo05/fastapi-grocery-list/blob/main/requirements.txt&quot;&gt;here&lt;/a&gt;. Therefore, once you have created your own virtual environment, you can simply install them with:&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requirements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;mainpy&quot;&gt;main.py&lt;/h2&gt;
+&lt;p&gt;Here we define our &lt;strong&gt;uvicorn&lt;/strong&gt; server, which will run on localhost on &lt;strong&gt;port 8000&lt;/strong&gt;. Notice that the option “reload=True” means that we are in debugging mode, Pay attention that &lt;strong&gt;it must be turned to False in production&lt;/strong&gt;! It means that every time we change something on our code the server will be restarted.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;uvicorn&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;__name__&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&apos;__main__&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;uvicorn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app.app:app&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;127.0.0.1&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apppy---create&quot;&gt;app.py - CREATE&lt;/h2&gt;
+&lt;p&gt;Here the magic begins. First, we need to define our FastAPI application and then, we can start implementing our routes. For the sake of simplicity, we will not use any persistent memory but we will just use a list of dictionaries as our basket items.&lt;/p&gt;
+
+&lt;p&gt;As we mentioned before, since we want to send data to the server we need to use a POST method. Now, we need to define an input dictionary, that will be sent from the client.&lt;/p&gt;
+
+&lt;p&gt;From the input dictionary, we need the key-value pairs for the &lt;strong&gt;item&lt;/strong&gt; and &lt;strong&gt;qty&lt;/strong&gt; (quantity). Therefore, assuming the input keys are correct, we have two scenarios:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The item already exists: we raise a 400 error&lt;/li&gt;
+  &lt;li&gt;The item does not exist: we add it to our list, and we send a 201 status code&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;For the status code you can also check &lt;a href=&quot;https://fastapi.tiangolo.com/tutorial/response-status-code/&quot;&gt;this&lt;/a&gt; resource.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fastapi&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FastAPI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HTTPException&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FastAPI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;bread&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;qty&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;milk&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;qty&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/create&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;201&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Creates a new item to buy
+    Args:
+        item (dict): {&quot;item&quot; : (str), &quot;qty&quot; : (int)}
+    
+    Returns:
+        notification, code 201
+    Raises:
+        HTTPException 400, if the element is already present on the list
+    &quot;&quot;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HTTPException&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detail&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; already present!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; added correctly!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apppy---read&quot;&gt;app.py - READ&lt;/h2&gt;
+&lt;p&gt;Now, we want to define a route for reading all our inserted items. We do not need to send data on the network. Therefore, we can use a GET method. So, the associated method will simply return our list of dictionaries under the key data.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/list&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Gets the whole grocery list
+    
+    Returns:
+        Dictionary containing the list of items under the key &quot;data&quot;
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apppy--update&quot;&gt;app.py — UPDATE&lt;/h2&gt;
+&lt;p&gt;The third operation is UPDATE, for which we update the quantity of a given item already present on our current list. Recall from before that to update an instance we use the PUT method.&lt;/p&gt;
+
+&lt;p&gt;Here we have the opposite situation of CREATE. We should raise an error if the item is not present on our list (because we cannot update it) and we can proceed otherwise.&lt;/p&gt;
+
+&lt;p&gt;Instead of using a body, now we use two items that will be given through the URL. We are waiting for “item_name” and “item_quantity”.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;put&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/update&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;update_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item_quantity&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Updates the quantity to buy for a given item
+    Args:
+        item_name (str) : name of the item to update
+        item_quantity (int) : quantity to update
+    Returns:
+        notification, code 200
+    Raises:
+         HTTPException 404, if the item is not present on the list
+    &quot;&quot;&quot;&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;qty&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item_quantity&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; correctly updated!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HTTPException&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detail&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; not found!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;view&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rawapp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hosted&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;❤&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GitHub&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;apppy--delete&quot;&gt;app.py — DELETE&lt;/h2&gt;
+&lt;p&gt;Finally, according to the CRUD paradigm we have to take care of the last operation, DELETE. Its corresponding method is DELETE, and we proceed as before. Now, instead of giving both “item_name” and “item_quantity” we give just “item_name”.&lt;/p&gt;
+
+&lt;p&gt;However, to mess up everything a little bit, let’s see a different way for retrieving the item to delete. In particular, we may also give it in a parametric way through the route.&lt;/p&gt;
+
+&lt;p&gt;For example, we may delete the item “water” by simply using the following request:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/delete/water
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Therefore, we use the name of the parameter inside the braces, and it can be used inside the method.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+&lt;span class=&quot;o&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;delete&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;/delete/{item_name}&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;delete_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Deletes item with a given iten_name
+    Args:
+        item_name (str) : name of the item that must be removed
+    
+    Returns:
+        notification, code 200
+    Raises:
+        HTTPException 404, if the item is not present on the list
+    &quot;&quot;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&apos;item&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;grocery_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;remove&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temp_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; correctly deleted!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;raise&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HTTPException&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;detail&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sa&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item_name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s&quot;&gt; not found!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
+&lt;p&gt;Once we defined all these operations we may want to test them. There are several ways to do that and probably the most common way is through Postman. Alternatively, FastAPI provides a very intuitive GUI from the route /docs. Otherwise, we can always use our old friend pytest.&lt;/p&gt;
+
+&lt;p&gt;To define methods recognized as tests, we have to call the python file with “test_fileToTest.py”, so we define our “test_main.py”. Then, each method will be called with “test_stuffToTest()”.&lt;/p&gt;
+
+&lt;p&gt;For example, I want to test the creation of an item. We have two possibilities: the item already exists or not. Therefore, it is a common practice to test all the possible scenarios.&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;fastapi.testclient&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TestClient&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;app.app&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;
+
+
+&lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TestClient&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_create_inexistent_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/create&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;new_item&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;qty&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;201&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;data&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;new_item added correctly!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;test_create_existent_item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/create&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;bread&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;qty&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;400&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;assert&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;detail&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;bread already present!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can check all the tests that I have already performed &lt;a href=&quot;https://github.com/francescodisalvo05/fastapi-grocery-list/blob/main/test/test_main.py&quot;&gt;here&lt;/a&gt;. To run all the tests, you need to run:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pytest
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Since I have performed 8 tests, this would be my result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/fastapi-grocery-list/pytest.png&quot; alt=&quot;Pytest&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;Today we have seen how to build a simple local server that can be used for a lot of (more useful) use cases. Recently, I needed to build it for a coding interview, and to be honest, it was quite fun!&lt;/p&gt;
+
+&lt;p&gt;I hope everything is clear, and if not, feel free to reach out on &lt;a href=&quot;https://www.linkedin.com/in/francescodisalvo-pa/&quot;&gt;LinkedIn&lt;/a&gt;. I would be more than happy to hear your feedback!
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wallpaper : https://unsplash.com/photos/8RaUEd8zD-U&lt;/li&gt;
+  &lt;li&gt;Available code: https://github.com/francescodisalvo05/fastapi-grocery-list&lt;/li&gt;
+  &lt;li&gt;GET and POST: https://www.w3schools.com/tags/ref_httpmethods.asp&lt;/li&gt;
+  &lt;li&gt;APIs: https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces&lt;/li&gt;
+  &lt;li&gt;Status code: https://fastapi.tiangolo.com/tutorial/response-status-code/&lt;/li&gt;
+  &lt;li&gt;Postman: https://www.postman.com&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Curse of dimensionality</title>
+   <link href="http://localhost:4000/2021/09/06/curse-of-dimensionality"/>
+   <updated>2021-09-06T00:00:00+00:00</updated>
+   <id>http://localhost:4000/2021/09/06/curse-of-dimensionality</id>
+   <content type="html">&lt;h1 id=&quot;curse-of-dimensionality&quot;&gt;Curse of dimensionality&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/curse-of-dimensionality/background.jpg&quot; alt=&quot;Wallpaper&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This article is also available on &lt;a href=&quot;https://medium.com/geekculture/curse-of-dimensionality-e97ba916cb8f&quot;&gt;medium&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;If you have already gathered a bit of experience in Data Science and Machine Learning you’ve probably heard someone worried about the scary “&lt;strong&gt;curse of dimensionality&lt;/strong&gt;”. If not, don’t panic, I will try to clarify it as much as I can!&lt;/p&gt;
+
+&lt;p&gt;Most of the time, the definition of the curse of dimensionality is strictly related to the &lt;strong&gt;sparsity&lt;/strong&gt; of the data. In fact, as the dimensionality increases, the volume of the space drastically increases as well, and the data becomes more and more sparse.&lt;/p&gt;
+
+&lt;p&gt;A consequence of the sparsity of the dataset is that our machine learning algorithms will need way more data in order to &lt;strong&gt;generalize&lt;/strong&gt;! However, it is not always so easy to gather labeled data. Therefore, it is way more efficient to tackle this problem from the beginning instead of looking for new data.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;from-another-perspective&quot;&gt;From another perspective&lt;/h2&gt;
+
+&lt;p&gt;During my course of Mathematics in Machine Learning, the professor gave us a practical representation of this phenomenon that I have seen only in a few online resources.&lt;/p&gt;
+
+&lt;p&gt;Let us consider a 2D feature space, represented by a &lt;strong&gt;unit square&lt;/strong&gt;, and consider also a &lt;strong&gt;circle inscribed on this square&lt;/strong&gt;. As you may see, most of the data points lie within the circle whereas the sparse data are on the corners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/curse-of-dimensionality/surface.jpg&quot; alt=&quot;Surface&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If we increase the dimension of the feature space by $1$, we obtain a &lt;strong&gt;unit cube&lt;/strong&gt; and again a &lt;strong&gt;sphere inscribed&lt;/strong&gt;. Intuitively, more points than before are sparse (i.e. are on the corners).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/curse-of-dimensionality/volume.jpg&quot; alt=&quot;Volume&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Please, close one eye and imagine that this cube has all the sides of the same length!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, if we continue for a while, we will end up in a very high dimensional space. What happens? Well, the volume of the hypercube will be always one, whereas the volume of the hypersphere (also called n-ball, with n dimensions) will exponentially decrease. Therefore, always more and more points will lie on the corners!&lt;/p&gt;
+
+&lt;p&gt;Are you still confused? Let’s try it mathematically. In two dimensions, given a unit square, its surface will be equal to 1 whreas the inscribed circle will have an area equal to 0.785&lt;/p&gt;
+
+\[\begin{cases}
+    X_2 = s \times s = s^2 = 1^2 = 1\\
+    Y_2 = \pi \times r^2 = 3.14 \times 0.25 = 0.785
+\end{cases}\]
+
+&lt;p&gt;With three dimensions, we have:&lt;/p&gt;
+
+\[\begin{cases}
+    X_3 = s \times s \times s = s^3 = 1^3 = 1 \\
+    Y_3 = \frac 4 3 \times \pi \times r^3 = 1.33 \times 3.14 \times 0.125 = 0.785
+\end{cases}\]
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/curse-of-dimensionality/surface-volume.jpg&quot; alt=&quot;Surface-and-Volume&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, with &lt;em&gt;n&lt;/em&gt; dimensions, we have&lt;/p&gt;
+
+\[\begin{cases}
+    X_n = s^n = 1 \\
+    Y_n = \frac { \pi^{n/2} } { \Gamma (\frac n 2 + 1)} ( \frac 1 2 )^2
+\end{cases}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;See wikipedia for the volume of the “n-ball”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hopefully now, you should be able to “see” and understand the relationship between the number of dimensions and the sparsity of the data!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;what-about-the-distance-metrics&quot;&gt;What about the distance metrics?&lt;/h2&gt;
+&lt;p&gt;Well, some distance metrics may be strongly affected by this phenomenon. In particular the euclidean distance will slowly lose its relevance as the number of dimensions increases.&lt;/p&gt;
+
+&lt;p&gt;Why? Well, first, recall the definition of the euclidean distance with &lt;em&gt;d&lt;/em&gt; dimensions:&lt;/p&gt;
+
+\[D(x,y) = \sum_{i=1}^d (x_i - y_i)^2\]
+
+&lt;p&gt;As you can imagine, if you start adding new dimensions, this sum will increases as well. Therefore, for a sufficiently large number of dimensions the ratio among the nearest and the farthest point approaches 1. Hence, it doesn’t make any sense to speak about “K” nearest points (e.g. in KNN, LOF and so on).&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusions&quot;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;To sum up, we have tried to give a more formal explanation to the curse of dimensionality, a very argued and underestimated topic in Machine Learning.&lt;/p&gt;
+
+&lt;p&gt;Whenever we have a very high number of features, we have several options that can be taken into account, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Remove highly &lt;a href=&quot;https://en.wikipedia.org/wiki/Pearson_correlation_coefficient&quot;&gt;correlated&lt;/a&gt; or non correlated features&lt;/li&gt;
+  &lt;li&gt;Group similar features&lt;/li&gt;
+  &lt;li&gt;Use &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal_component_analysis&quot;&gt;Principal Components Analysis&lt;/a&gt; and similar techniques&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Background Photo by &lt;a href=&quot;https://unsplash.com/@sigmund?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Sigmund&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/glasses-3d?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Curse of dimensionality : &lt;a href=&quot;https://en.wikipedia.org/wiki/Curse_of_dimensionality&quot;&gt;Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The course of dimensionality : &lt;a href=&quot;https://mathematical-coffees.github.io/slides/mc08-delon.pdf&quot;&gt;Julie Delon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The curse of dimensionality : &lt;a href=&quot;https://towardsdatascience.com/the-curse-of-dimensionality-50dc6e49aa1e&quot;&gt;Tony YiU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>

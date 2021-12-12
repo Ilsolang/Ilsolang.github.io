@@ -1,4 +1,10 @@
 source "https://rubygems.org"
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
+gem 'jekyll-relative-links'
+gem "webrick", "~> 1.7"
+gem 'wdm'
+gem 'tzinfo'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
-gem "github-pages", group: :jekyll_plugins
-gem 'wdm', '>= 0.1.0' if Gem.win_platform?

@@ -1,100 +1,87 @@
-### Site Settings ###
-title               : Ilsolang
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-#baseurl             : "/portfolYOU"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : Ilsolang/Ilsolang.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-#remote_theme        : Ilsolang/Ilsolang.github.io
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+site: Francesco Di Salvo
+title: Francesco Di Salvo
+description: >-
+  I am a Data Science student with a strong passion for data and artificial intelligence. 
+  During my spare time I devour books and I always try to study and learn new things. 
+  I am fascinated by the world of productivity and investements. 
+  Well, I wish I have 48 hours per day, but I have to settle for 24!
+googlewebfonts: Fira+Code:wght@400;500;700
+lang: en-US
+timezone: Europe/Moscow
+repo: https://github.com/francescodisalvo05/francescodisalvo05.github.io # site repo [optional]
+data-theme: dark # default theme "dark" | "light"
 
-
-### Plugins ###
-plugins:
-  - jemoji
-
-
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
-  - pages/404.html
-  - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
-
-
-### Author Info ###
 author:
-  name              : Ilya Semenov
-  image             : https://i.imgur.com/uyDNQnn.jpg
-# behance           : your_username
-# dribbble          : your_username
-  email             : essilyasemenov@gmail.com
-  facebook          : Ilsolang
-  github            : Ilsolang
-# gitlab            : your_username
-  instagram         : ilya.semenov.26
-# kaggle            : your_username
-  linkedin          : Ilsolang
-# medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : Ilsolang
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
+  name: Ilya Semenov
+  bio: 
+  username: Ilsolang # general username
+  github: Ilsolang # github username
+  twitter:  # twitter username
+  email: essilyasemenov@gmail.com # email adress
+
+# URL settings
+url: "https://Ilsolang.github.io" # Domain Name of host. [username].github.io for github pages
+baseurl: # sub folder for jekyll site. only if jekyll site not in root of host. leave blank if not wishd. always add / in front.
+permalink: pretty
 
 
-### Posts ###
-permalink: /blog/:title
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 
-### Collections ###
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+
 collections:
-  projects:
+  pages:
     output: true
-    permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-
-
-### Disqus ###
-#disqus:
-#  shortname: your-short-name-disqus                     # Your website Shortname on disqus
-
-
-### Analytics ###
-#analytics:
-#  enabled: false                                        # Set true to enable analytics
-#  google:
-#    tracking_id: your-google-tracking-id
-
-
-### Defaults for collections ###
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
-      type: "projects"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
+  -
+    scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
 
 
-### Exclude from processing ###
-exclude:
-  - README.md
-  - CONTRIBUTING.md
-  - LICENSE
-  - "*.log"
