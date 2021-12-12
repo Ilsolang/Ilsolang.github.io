@@ -1,5 +1,5 @@
-site: Francesco Di Salvo
-title: Francesco Di Salvo
+site: Ilsolang
+title: Ilya Semenov
 description: >-
   I am a Data Science student with a strong passion for data and artificial intelligence. 
   During my spare time I devour books and I always try to study and learn new things. 
@@ -8,7 +8,7 @@ description: >-
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Europe/Moscow
-repo: https://github.com/francescodisalvo05/francescodisalvo05.github.io # site repo [optional]
+repo: https://github.com/Ilsolang/Ilsolang.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
@@ -16,7 +16,7 @@ author:
   bio: 
   username: Ilsolang # general username
   github: Ilsolang # github username
-  twitter:  # twitter username
+  twitter: Ilsolang # twitter username
   email: essilyasemenov@gmail.com # email adress
 
 # URL settings
